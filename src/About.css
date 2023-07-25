@@ -1,0 +1,74 @@
+/* Styles for all screen sizes */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("table.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #ffffffc4;
+  color: rgb(0, 7, 149);
+  text-align: center;
+  font-family: "sans-serif";
+  /* y */
+  font-size: 1.1rem; /* Increase text size slightly */
+}
+
+.h1 {
+  text-align: center;
+  font-family: "sans-serif";
+}
+
+.p {
+    text-align: center;
+}
+
+.q {
+    color: rgb(16, 37, 158);
+}
+
+.w {
+    color: rgb(16, 158, 80);
+}
+
+.j {
+    
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .hi {
+    /* Adjust height and other properties for mobile devices */
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+/* Additional responsive styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hi {
+    /* Modify styles for tablets and smaller devices */
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+/* Additional responsive styles for screens larger than 1023px */
+@media (min-width: 1024px) {
+  .hi {
+    /* Adjust styles for desktop and larger screens */
+    font-size: 18px;
+    padding: 30px;
+  }
+}
